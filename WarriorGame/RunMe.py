@@ -2,6 +2,8 @@
 Created on 27.11.2018
 
 @author: Klaus
+'''
+from Aufgabe import Aufgabe
 
 The main function of this game
 '''
@@ -13,7 +15,7 @@ def inputName():
 
 def mainMenu():
     print("Hello")
-    
+
 def marketplace():
     pass;
 
@@ -22,4 +24,3 @@ if __name__ == '__main__':
     while(True):
         pass
         break;
-       
