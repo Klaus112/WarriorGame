@@ -12,6 +12,7 @@ class Monster():
         
         self.name = name
         
+        
 
 
         
