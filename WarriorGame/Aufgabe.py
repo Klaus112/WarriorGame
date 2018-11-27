@@ -3,15 +3,25 @@ Created on 27.11.2018
 
 @author: Martin
 '''
+from random import randint
 
-class MyClass(object):
+
+class Aufgabe():
     '''
     classdocs
     '''
+   
+    
+    
+    
 
 
-    def __init__(self, params):
+    def __init__(self, name, questLevel):
         '''
         Constructor
         '''
-        
+         self.name = name
+         self.questLevel = questLevel
+         self.goldReward = self.questLevel + randint(0,2)
+         self.experience = experience
+         
