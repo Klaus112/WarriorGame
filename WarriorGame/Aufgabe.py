@@ -12,16 +12,12 @@ class Aufgabe():
     '''
    
     
-    
-    
 
-
-    def __init__(self, name, questLevel):
+    def __init__(self, name, questLevel, goldReward, experience):
         '''
         Constructor
         '''
-         self.name = name
-         self.questLevel = questLevel
-         self.goldReward = self.questLevel + randint(0,2)
-         self.experience = experience
-         
+        self.name = name
+        self.questLevel = questLevel
+        self.goldReward = self.questLevel + randint(0,2)
+        self.experience = experience     
