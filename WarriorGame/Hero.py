@@ -11,14 +11,14 @@ class Hero:
         self.Damage = 10*(self.WeaponLevel+self.HeroLevel)
         self.Health = 22*(self.HeroLevel)
 
-def setWeaponLevel(self, value):
-    self.WeaponLevel += value
-    self.update()
+    def setWeaponLevel(self, value):
+        self.WeaponLevel += value
+        self.update()
 
-def setHeroLevel(self, value):
-    self.HeroLevel += value
-    self.update()
-
-def update (self):
-    self.Damage = 10*(self.WeaponLevel+self.HeroLevel)
-    self.Health = 22*(self.HeroLevel)
+    def setHeroLevel(self, value):
+        self.HeroLevel += value
+        self.update()
+    
+    def update (self):
+        self.Damage = 10*(self.WeaponLevel+self.HeroLevel)
+        self.Health = 22*(self.HeroLevel)
