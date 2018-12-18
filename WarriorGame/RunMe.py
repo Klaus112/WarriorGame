@@ -14,7 +14,7 @@ The main function of this game
 '''
 
 
-def inputName():
+def inputHeroName():
     '''
     The function that will create the hero and ask the user for a name
     '''
@@ -106,7 +106,7 @@ if __name__ == '__main__':
     '''
     The main game loop
     '''
-    player = inputName();
+    player = inputHeroName();
     while(True):
         mainMenu()
         choice = getNumber()
@@ -116,3 +116,7 @@ if __name__ == '__main__':
             marketplace()
         elif(choice == '3'):
             adventure()
+            
+        else:
+            print("See you soon!")
+            break;
